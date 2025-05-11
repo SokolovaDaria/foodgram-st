@@ -1,0 +1,30 @@
+# Core Django & API
+django==4.2.* # Or your preferred stable Django 4.x version
+djangorestframework==3.14.*
+psycopg2-binary==2.9.* # For PostgreSQL connection
+python-dotenv==1.0.*  # For environment variables
+gunicorn==21.2.*     # WSGI server for production
+
+# Authentication & User Management
+djoser==2.2.*       # Handles user registration, login, password reset etc.
+
+# Filtering
+django-filter==23.5.* # Easy filtering for lists
+
+# Image Handling
+Pillow==10.1.*      # For ImageField support
+
+# Base64 Image Handling (for DRF)
+drf-extra-fields==3.7.* # Provides Base64ImageField
+
+# Optional: PDF Generation for Shopping List
+# reportlab==4.0.*
+
+# Development/Debugging
+# ipython # If you like using it in shell_plus
+# django-debug-toolbar # Helpful during development
+
+# Linting/Formatting (Development only - often installed separately)
+# flake8
+# black
+# isort
